@@ -36,13 +36,14 @@ def plot(file_name):
     p2 = p2[0:mUniquePts]
     p2 = abs(p2)
 
-'''
-Left Channel
-'''
-    p = p / float(n) # scale by the number of points so that
+    p = p / float(n)
+             # scale by the number of points so that
              # the magnitude does not depend on the length 
              # of the signal or on its sampling frequency  
     p = p**2  # square it to get the power 
+'''
+Left Channel
+'''
 
 
 
